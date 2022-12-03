@@ -3,6 +3,7 @@ import Facilities from "../components/Facilities";
 import Footer from "../components/Footer";
 import Footer2 from "../components/Footer2";
 import Navbar from "../components/Navbar";
+import New from "../components/New";
 import Room from "../components/Room";
 
 export default function Home() {
@@ -24,13 +25,25 @@ export default function Home() {
 
       <Room />
       <Room />
+
       <div className="flex justify-around">
         <img className=" m-2 p-2 w-3/12" src="/img/tree.png" />
         <img className=" mt-6  w-3/12" src="/img/tree2.png" />
         <img className=" m-2 p-2 w-3/12" src="/img/tree3.png" />
-
-
       </div>
+
+      <div className="m-2 p-2">
+        <h1 className="font-bold">
+          {" "}
+          Whats <b className="text-[#FF0000]">NEW!</b>
+        </h1>
+      </div>
+
+      <div className="flex justify-around m-2">
+        <New />
+        <New />
+      </div>
+
       <div className="flex  items-center justify-between">
         <img src="/img/icons/leaf.png" />
         <h1 className="text-[#FF0000]  text-center m-2  ">
