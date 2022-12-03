@@ -95,6 +95,21 @@ export default function Home() {
 
         </div>
       </div>
+
+      <div className="">
+        <div className="flex">
+          <img className="p-2 w-1/2" src="/img/resort/resort1.png"/>
+          <img className="p-2 w-1/2" src="/img/resort/resort2.png"/>
+        </div>
+        <div className="flex">
+          <img className="p-2 w-1/2" src="/img/resort/resort3.png"/>
+          <img className="p-2 w-1/2" src="/img/resort/resort4.png"/>
+        </div>
+        <div className="flex">
+          <img className="p-2 w-1/2" src="/img/resort/resort5.png"/>
+          <img className="p-2 w-1/2" src="/img/resort/resort6.png"/>
+        </div>
+      </div>
       <Footer2 />
     </>
   );
