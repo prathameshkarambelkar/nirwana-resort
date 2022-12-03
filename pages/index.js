@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Facilities from "../components/Facilities";
 import Footer from "../components/Footer";
+import Footer2 from "../components/Footer2";
 import Navbar from "../components/Navbar";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       </>
       <Facilities />
       <Footer />
+      <Footer2 />
     </>
   );
 }

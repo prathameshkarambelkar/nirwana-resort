@@ -2,7 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <>
+    <  >
+    <div className="flex-col">
       <div className="relative flex-col ">
         <img src="/img/footer/footer1.png" />
         <h1 className="absolute top-5 mx-12 font-extrabold text-white">Recommend your changes for us.</h1>
@@ -32,10 +33,14 @@ const Footer = () => {
           </button>
         </form>
       </div>
-      <div className="relative">
+      {/* <div className="relative">
         <img src="/img/footer/footer2.png" />
         <img className="absolute top-3 left-3" src="/img/WhiteLogosm.png" />
         <h2 className="absolute top-7 text-[#FFFFFF] mx-7 my-10">The website ends here, but your journey to the remotest destinations in India and Nepal begins with Zostel. Explore with our social hostels, homestays, and luxury stays on your next holiday.</h2>
+      </div> */}
+      <div  style={{backgroundImage: "url(/img/footer/footer1.png)"}} className="relative" >
+
+      </div>
       </div>
     </>
   );
