@@ -24,7 +24,6 @@ export default function Home() {
             <br />
             <br />
             <br />
-            
             <br />
             <br />
             <br />
@@ -51,7 +50,7 @@ export default function Home() {
       </div>
 
       <div className="m-2 p-2">
-        <h1 className="font-bold">
+        <h1 className="font-bold text-lg">
           Whats <b className="text-[#FF0000]">NEW!</b>
         </h1>
       </div>
