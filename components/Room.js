@@ -28,7 +28,7 @@ const Room = () => {
         <div className="  flex flex-col justify-center items-center m-4 ">
           <img className=" " src="/img/room1.png" />
         </div>
-        <h1 className="ml-2 p-2 font-bold">clamping</h1>
+        <h1 className="ml-2 p-2 font-bold">Clamping</h1>
         <div className="flex mb-4 ">
           <button className="rounded-lg text-white font-light bg-[#197C38] border ml-4 p-2">
             Book Now

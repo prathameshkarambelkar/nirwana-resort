@@ -10,21 +10,39 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div>
-        <div className=" bg-[url('/img/home.png')]"></div>
-        <img src="/img/home.png" />
-
-        <div className="flex flex-col justify-center items-center">
-          <button className="rounded-lg text-sm text-white bg-[#197C38] border p-2">
-            Book Now
-          </button>
+      
+        <div className=" w-full h-[80vh] bg-cover bg-[url('../public/img/home.png')]">
+          <div className=" grid content-between ">
+            <div className="m-6 p-2 flex text-md font-light flex-col justify-center items-center ">
+              <h1>Stays That Are Parradise</h1>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <div className="flex flex-col  justify-center items-center">
+              <button className="rounded-lg w-6/12 text-sm text-white bg-[#197C38] border p-2">
+                Book Now
+              </button>
+            </div>
+          </div>
         </div>
-
-      </div>
+    
       <img src="/img/divider.png" />
 
       <Room />
-      
 
       <div className="flex justify-around">
         <img className=" m-2 p-2 w-3/12" src="/img/tree.png" />
@@ -34,7 +52,6 @@ export default function Home() {
 
       <div className="m-2 p-2">
         <h1 className="font-bold">
-          
           Whats <b className="text-[#FF0000]">NEW!</b>
         </h1>
       </div>
@@ -55,7 +72,7 @@ export default function Home() {
         <img src="/img/NirwanaStaysLogo.png" />
       </div>
       <div>
-        <p className="p-5 text-sm text-center m-2">
+        <p className="p-5 text-sm font-light text-center m-2 leading-6">
           Our restaurant has a distinctive feature, the seating is done in the
           traditional Indian style. We also follow the old Indian tradition of
           not bringing footwear to dining. We love to serve our customers so
@@ -67,28 +84,27 @@ export default function Home() {
           <img className="p-2" src="/img/icons/dish.png" />
         </div>
 
-        <div className="p-2 flex-col center ">
+        <div className=" mt-6 flex-col center ">
           <h1 className="text-[#198039]  font-semibold text-md">
             Opening Hours
           </h1>
-          <h1>Breakfast: 08.00am - 10.30am</h1>
-          <h1>Lundh: 1.00pm - 3.00pm</h1>
-          <h1>Dinner: 4.30pm - 10.30pm</h1>
+          <h1 className="text-xs">Breakfast: 08.00am - 10.30am</h1>
+          <h1 className="text-xs">Lunch: 1.00pm - 3.00pm</h1>
+          <h1 className="text-xs">Dinner: 4.30pm - 10.30pm</h1>
         </div>
       </div>
 
       <div className="mb-8">
         <Facilities />
       </div>
-      
+
       <div className="">
         <img className="p-3" src="/img/tents.png" />
         <div className="flex ">
           <img className="p-2 w-2/3" src="/img/bedroom.png" />
           <div className="flex flex-col">
-          <img className="w-2/3 mt-6" src="/img/dots.png" />
-          <img className="p-2" src="/img/tree2.png" />
-
+            <img className="w-2/3 mt-6" src="/img/dots.png" />
+            <img className="p-2" src="/img/tree2.png" />
           </div>
         </div>
         <div className="flex flex-col  items-center justify-center">
@@ -99,7 +115,7 @@ export default function Home() {
         <div className="flex flex-col  items-center justify-center">
           <img className="m-6" src="/img/tentCircle.png" />
         </div>
-        <div className="border p-2 flex m-6 text-sm flex-col items-center justify-center ">
+        <div className="border border-black p-2 flex m-6 text-sm flex-col items-center justify-center ">
           <h1 className="font-semibold text-sm ">Devnash Tiwari</h1>
           <h1 className="text-center text-sm">
             Great Experience with good tents and good service.
@@ -108,7 +124,7 @@ export default function Home() {
         <div className="flex flex-col  items-center justify-center">
           <img className="m-6" src="/img/tentCircle.png" />
         </div>
-        <div className="border p-2 flex m-6 text-sm flex-col items-center justify-center ">
+        <div className="border p-2 border-black flex m-6 text-sm flex-col items-center justify-center ">
           <h1 className="font-semibold text-sm">Pranit Patil</h1>
           <h1 className="text-center text-sm">
             Great Experience with good tents and good service.
@@ -126,16 +142,16 @@ export default function Home() {
 
       <div className="">
         <div className="flex">
-          <img className="p-2 w-1/2" src="/img/resort/resort1.png" />
-          <img className="p-2 w-1/2" src="/img/resort/resort2.png" />
+          <img className="p-1 w-1/2" src="/img/resort/resort1.png" />
+          <img className="p-1 w-1/2" src="/img/resort/resort2.png" />
         </div>
         <div className="flex">
-          <img className="p-2 w-1/2" src="/img/resort/resort3.png" />
-          <img className="p-2 w-1/2" src="/img/resort/resort4.png" />
+          <img className="p-1 w-1/2" src="/img/resort/resort3.png" />
+          <img className="p-1 w-1/2" src="/img/resort/resort4.png" />
         </div>
         <div className="flex">
-          <img className="p-2 w-1/2" src="/img/resort/resort5.png" />
-          <img className="p-2 w-1/2" src="/img/resort/resort6.png" />
+          <img className="p-1 w-1/2" src="/img/resort/resort5.png" />
+          <img className="p-1 w-1/2" src="/img/resort/resort6.png" />
         </div>
       </div>
       <Footer2 />
