@@ -11,20 +11,20 @@ export default function Home() {
     <>
       <Navbar />
       <div>
-        <div className="  bg-[url('/img/home.png')]"></div>
+        <div className=" bg-[url('/img/home.png')]"></div>
+        <img src="/img/home.png" />
+
         <div className="flex flex-col justify-center items-center">
-          <button className="rounded-lg text-white bg-[#197C38] border p-2">
+          <button className="rounded-lg text-sm text-white bg-[#197C38] border p-2">
             Book Now
           </button>
         </div>
-        <div className="flex m-10 justify-center ">
-          <img src="/img/NirwanaStaysLogo.png" />
-        </div>
+
       </div>
       <img src="/img/divider.png" />
 
       <Room />
-      <Room />
+      
 
       <div className="flex justify-around">
         <img className=" m-2 p-2 w-3/12" src="/img/tree.png" />
@@ -34,19 +34,18 @@ export default function Home() {
 
       <div className="m-2 p-2">
         <h1 className="font-bold">
-          {" "}
+          
           Whats <b className="text-[#FF0000]">NEW!</b>
         </h1>
       </div>
 
-      <div className="flex justify-around m-2">
-        <New />
+      <div className="flex justify-around m-2 mb-8">
         <New />
       </div>
 
       <div className="flex  items-center justify-between">
         <img src="/img/icons/leaf.png" />
-        <h1 className="text-[#FF0000]  text-center m-2  ">
+        <h1 className="text-[#FF0000] text-sm font-bold text-center m-2  ">
           LAKE VIEW FROM TENT
         </h1>
         <img src="/img/icons/leaf.png" />
@@ -56,7 +55,7 @@ export default function Home() {
         <img src="/img/NirwanaStaysLogo.png" />
       </div>
       <div>
-        <p className="p-5 text-center m-2">
+        <p className="p-5 text-sm text-center m-2">
           Our restaurant has a distinctive feature, the seating is done in the
           traditional Indian style. We also follow the old Indian tradition of
           not bringing footwear to dining. We love to serve our customers so
@@ -78,18 +77,22 @@ export default function Home() {
         </div>
       </div>
 
-      <Facilities />
+      <div className="mb-8">
+        <Facilities />
+      </div>
+      
       <div className="">
         <img className="p-3" src="/img/tents.png" />
         <div className="flex ">
           <img className="p-2 w-2/3" src="/img/bedroom.png" />
-          <img
-            className="flex  w-10 h-10 items-center justify-between"
-            src="/img/icons/tree.png"
-          />
+          <div className="flex flex-col">
+          <img className="w-2/3 mt-6" src="/img/dots.png" />
+          <img className="p-2" src="/img/tree2.png" />
+
+          </div>
         </div>
         <div className="flex flex-col  items-center justify-center">
-          <button className="border m-6 bg-transparent p-2  flex items-center justify-center">
+          <button className=" border border-black m-6 bg-[#E5E5E5] py-2 px-6  flex items-center justify-center">
             View Gallery
           </button>
         </div>
@@ -97,8 +100,8 @@ export default function Home() {
           <img className="m-6" src="/img/tentCircle.png" />
         </div>
         <div className="border p-2 flex m-6 text-sm flex-col items-center justify-center ">
-          <h1 className="font-semibold">Devnash Tiwari</h1>
-          <h1 className="text-center">
+          <h1 className="font-semibold text-sm ">Devnash Tiwari</h1>
+          <h1 className="text-center text-sm">
             Great Experience with good tents and good service.
           </h1>
         </div>
@@ -106,14 +109,14 @@ export default function Home() {
           <img className="m-6" src="/img/tentCircle.png" />
         </div>
         <div className="border p-2 flex m-6 text-sm flex-col items-center justify-center ">
-          <h1 className="font-semibold">Devnash Tiwari</h1>
-          <h1 className="text-center">
+          <h1 className="font-semibold text-sm">Pranit Patil</h1>
+          <h1 className="text-center text-sm">
             Great Experience with good tents and good service.
           </h1>
         </div>
         <div className="flex flex-col items-center justify-center p-2 m-6">
           <img src="/img/icons/insta.png" />
-          <p className="text-md font-light">#NirvanaStays</p>
+          <p className="text-xl  font-normal">#NirvanaStays</p>
           <p className="text-center text-sm">
             Follow @nirwanastays on instagram as we nirwana stays into a
             different world.

@@ -42,34 +42,34 @@ const Footer2 = () => {
         }}
       >
         <img src="/img/WhiteLogosm.png" className="p-4" />
-        <p className="text-white p-4 font-thin font-sans">
+        <p className="text-white p-4 text-sm font-thin font-sans">
           The website ends here, but your journey to the remotest destinations
           in India and Nepal begins with Zostel. Explore with our social
           hostels, homestays, and luxury stays on your next holiday.
         </p>
-        <h1 className="text-md text-white underline font-sans p-4">USEFUL LINKS</h1>
+        <h1 className="text-md text-white text-xl underline font-sans p-4">Useful Links</h1>
         <div className="flex-col px-4 py-2 font-sans">
-          <h1 className="text-white ">Guest Policy</h1>
-          <h1 className="text-white ">Privacy Policy</h1>
-          <h1 className="text-white ">Careers</h1>
+          <h1 className="text-white text-sm ">Guest Policy</h1>
+          <h1 className="text-white text-sm ">Privacy Policy</h1>
+          <h1 className="text-white text-sm ">Careers</h1>
         </div>
         <div className="flex-col px-4 py-2 font-sans">
-          <h1 className="text-white ">Destination</h1>
-          <h1 className="text-white ">Franchise</h1>
-          <h1 className="text-white ">Contact Us</h1>
-          <h1 className="text-white ">Cookie Policy</h1>
+          <h1 className="text-white text-sm ">Destination</h1>
+          <h1 className="text-white text-sm ">Franchise</h1>
+          <h1 className="text-white text-sm ">Contact Us</h1>
+          <h1 className="text-white text-sm ">Cookie Policy</h1>
         </div>
 
         <div className="flex-col px-4 font-sans py-2">
-          <h1 className="text-white ">About Us</h1>
-          <h1 className="text-white ">Suport</h1>
-          <h1 className="text-white ">Terms</h1>
+          <h1 className="text-white text-sm ">About Us</h1>
+          <h1 className="text-white text-sm ">Suport</h1>
+          <h1 className="text-white text-sm ">Terms</h1>
         </div>
 
         <div class="flex flex-wrap items-center md:justify-between justify-center">
           <div class="w-full  p-6 mx-auto text-center">
             <div class="text-sm text-white font-normal font-sans py-1">
-              @2022 <b>NIRWANA STAYS</b> All Rights Reserved
+              @2022 NIRWANA STAYS All Rights Reserved
             </div>
           </div>
         </div>
