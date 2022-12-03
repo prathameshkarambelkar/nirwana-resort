@@ -3,6 +3,7 @@ import Facilities from "../components/Facilities";
 import Footer from "../components/Footer";
 import Footer2 from "../components/Footer2";
 import Navbar from "../components/Navbar";
+import Room from "../components/Room";
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
       <div>
         <div className="  bg-[url('/img/home.png')]"></div>
         <div className="flex flex-col justify-center items-center">
-          <button className="rounded-lg bg-[#197C38] border p-2">
+          <button className="rounded-lg text-white bg-[#197C38] border p-2">
             Book Now
           </button>
         </div>
@@ -19,6 +20,9 @@ export default function Home() {
           <img src="/img/NirwanaStaysLogo.png" />
         </div>
       </div>
+      <img src="/img/divider.png" />
+      <Room />
+      <Room />
       <div className="flex  items-center justify-between">
         <img src="/img/icons/leaf.png" />
         <h1 className="text-[#FF0000]  text-center m-2  ">
@@ -26,6 +30,7 @@ export default function Home() {
         </h1>
         <img src="/img/icons/leaf.png" />
       </div>
+      
 
       <div className=" p-2 flex justify-center ">
         <img src="/img/NirwanaStaysLogo.png" />

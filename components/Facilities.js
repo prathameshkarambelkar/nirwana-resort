@@ -16,9 +16,9 @@ export const Facilities = () => {
           </h1>
         </div>
         <div className="m-2 pb-4">
-          <div className="flex justify-around items-center p-2 m-2 " >
-            <img src="/img/icons/football.png" />
-            <h1 className="text-white text-xs ">Playground</h1>
+          <div className="flex justify-around  items-center p-2 m-2 " >
+            <img className="w-10" src="/img/icons/football.png" />
+            <h1 className="text-white text-left text-xs ">Playground</h1>
             <img src="/img/icons/water.png" />
             <h1 className=" text-white text-xs ">Hot Water</h1>
           </div>
