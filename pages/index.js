@@ -21,8 +21,16 @@ export default function Home() {
         </div>
       </div>
       <img src="/img/divider.png" />
+
       <Room />
       <Room />
+      <div className="flex justify-around">
+        <img className=" m-2 p-2 w-3/12" src="/img/tree.png" />
+        <img className=" mt-6  w-3/12" src="/img/tree2.png" />
+        <img className=" m-2 p-2 w-3/12" src="/img/tree3.png" />
+
+
+      </div>
       <div className="flex  items-center justify-between">
         <img src="/img/icons/leaf.png" />
         <h1 className="text-[#FF0000]  text-center m-2  ">
@@ -30,7 +38,6 @@ export default function Home() {
         </h1>
         <img src="/img/icons/leaf.png" />
       </div>
-      
 
       <div className=" p-2 flex justify-center ">
         <img src="/img/NirwanaStaysLogo.png" />
