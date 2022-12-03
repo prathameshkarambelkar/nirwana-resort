@@ -11,7 +11,9 @@ function MobileNav({open, setOpen}) {
                     <Link  href={'/'}><p className='py-5 my-10 text-black uppercase ' onClick={() => setTimeout(() => {setOpen(!open)}, 100)}> Camping </p></Link>             
                     <Link  href={'/'}><p className='py-5 my-10 text-black uppercase ' onClick={() => setTimeout(() => {setOpen(!open)}, 100)}> Glamping </p></Link>
             </div>  
+           
         </div>
+        
     )
 }
 
@@ -35,15 +37,9 @@ export default function Navbar({user}) {
                 </div>
 
                 <div className="hidden md:flex list-none">
-
-
                     <Link href={'/'}><li className='hover:text-blue cursor-pointer mx-5 m-auto text-sm text-black uppercase font-semibold'> Home</li></Link>
                     <Link href={'/'}><li className='hover:text-blue cursor-pointer mx-5 m-auto text-sm text-black uppercase font-semibold'> Camping</li></Link>
                     <Link href={'/'}><li className='hover:text-blue cursor-pointer mx-5 m-auto text-sm text-black uppercase font-semibold'> Glamping</li></Link>
-
-                    
-
-
                 </div>
             </div>
         </nav>
