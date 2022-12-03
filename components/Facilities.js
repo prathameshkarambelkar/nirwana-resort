@@ -4,32 +4,57 @@ export const Facilities = () => {
   return (
     <>
       <div
-        className="bg-cover bg-no-repeat "
+        className=" bg-black  bg-cover bg-no-repeat "
         style={{
-          backgroundImage: "url('/img/Facbg.png')",
+          backgroundImage: "url('/img/leaf.png')",
         }}
       >
-        <div className="pt-7 px-7 pb-4 font-sans">
+        <div className="pt-7 pl-7  ">
           <h1 className="text-[#C9F15C] text-xs">Resort</h1>
           <h1 className="text-[#FFFFFF] font-bold underline decoration-[#61CC47] text-sm ">
             Facilities
           </h1>
         </div>
+        <div className="m-2 pb-4">
+          <div className="flex justify-around items-center p-2 m-2 " >
+            <img src="/img/icons/football.png" />
+            <h1 className="text-white text-xs ">Playground</h1>
+            <img src="/img/icons/water.png" />
+            <h1 className=" text-white text-xs ">Hot Water</h1>
+          </div>
+          <div className="flex justify-around items-center p-2 m-2 " >
+            <img src="/img/icons/parking.png" />
+            <h1 className="text-white text-xs ">Spacious Parking</h1>
+            <img src="/img/icons/restaurant.png" />
+            <h1 className=" text-white text-xs ">Restaurantsr</h1>
+          </div>
+          <div className="flex justify-around items-center m-2 p-2 " >
+            <img src="/img/icons/meetroom.png" />
+            <h1 className="text-white text-xs ">Meeting Room Hall</h1>
+            <img src="/img/icons/indoor.png" />
+            <h1 className=" text-white text-xs ">Indoor Games</h1>
+          </div>
+          <div className="flex justify-around items-center m-2 p-2" >
+            <img src="/img/icons/wifi.png" />
+            <h1 className="text-white text-xs ">Wifi Connection</h1>
+            <img src="/img/icons/doctor.png" />
+            <h1 className=" text-white text-xs ">Doctor On Call</h1>
+          </div>
+        </div>
 
-        <div className="flex-row flex-wrap text-xs text-center p-4  ">
-          <div className="m-5">
-            <div className=" flex-col flex-wrap  text-white ">
-              <div className="flex flex-row ">
-                <div className="flex items-center">
+        {/* <div className=" text-xs p-1 m-6 ">
+          <div className="">
+            <div className=" text-white ">
+              <div className="flex ">
+                <div className="flex justify-between items-center">
                   <img src="/img/icons/football.png" />
-                  <h1 className="justify-between items-center mx-5">Playground</h1>
+                  <h1 className=" mx-5">Playground</h1>
                 </div>
-                <div className="flex items-center ml-12">
+                <div className="flex items-center justify-between">
                   <img src="/img/icons/water.png" />
                   <h1 className="mx-5">Hot Water</h1>
                 </div>
               </div>
-
 
               <div className="flex flex-row">
                 <div className="flex  items-center">
@@ -65,7 +90,7 @@ export const Facilities = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

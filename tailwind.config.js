@@ -6,10 +6,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'footer1': "url('/img/footer/footer1.png')",
-        'footer2': "url('/img//footer/footer2.png')",
-      }
+
     },
   },
   plugins: [],

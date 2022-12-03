@@ -9,27 +9,25 @@ export default function Home() {
     <>
       <Navbar />
       <div>
-        <div
-          className=" h-max w-max"
-          style={{
-            backgroundImage: "url('/img/home.png')",
-          }}
-        >
-          <h1>Hello World</h1>
+        <div className="  bg-[url('/img/home.png')]"></div>
+        <div className="flex flex-col justify-center items-center">
+          <button className="rounded-lg bg-[#197C38] border p-2">
+            Book Now
+          </button>
         </div>
         <div className="flex m-10 justify-center ">
           <img src="/img/NirwanaStaysLogo.png" />
         </div>
       </div>
-      <div className="flex items-center justify-between">
+      <div className="flex  items-center justify-between">
         <img src="/img/icons/leaf.png" />
-        <h1 className="text-[#FF0000] text-center m-2  ">
+        <h1 className="text-[#FF0000]  text-center m-2  ">
           LAKE VIEW FROM TENT
         </h1>
         <img src="/img/icons/leaf.png" />
       </div>
 
-      <div className="flex justify-center ">
+      <div className=" p-2 flex justify-center ">
         <img src="/img/NirwanaStaysLogo.png" />
       </div>
       <div>
@@ -42,10 +40,10 @@ export default function Home() {
       </div>
       <div className="flex">
         <div className="content-center">
-          <img src="/img/icons/dish.png" />
+          <img className="p-2" src="/img/icons/dish.png" />
         </div>
 
-        <div className="flex-col center ">
+        <div className="p-2 flex-col center ">
           <h1 className="text-[#198039]  font-semibold text-md">
             Opening Hours
           </h1>
@@ -89,25 +87,27 @@ export default function Home() {
           </h1>
         </div>
         <div className="flex flex-col items-center justify-center p-2 m-6">
-        <img src="/img/icons/insta.png" />
-        <p className="text-md font-light">#NirvanaStays</p>
-        <p className="text-center text-sm">Follow @nirwanastays on instagram as we nirwana stays into a different world.</p>
-
+          <img src="/img/icons/insta.png" />
+          <p className="text-md font-light">#NirvanaStays</p>
+          <p className="text-center text-sm">
+            Follow @nirwanastays on instagram as we nirwana stays into a
+            different world.
+          </p>
         </div>
       </div>
 
       <div className="">
         <div className="flex">
-          <img className="p-2 w-1/2" src="/img/resort/resort1.png"/>
-          <img className="p-2 w-1/2" src="/img/resort/resort2.png"/>
+          <img className="p-2 w-1/2" src="/img/resort/resort1.png" />
+          <img className="p-2 w-1/2" src="/img/resort/resort2.png" />
         </div>
         <div className="flex">
-          <img className="p-2 w-1/2" src="/img/resort/resort3.png"/>
-          <img className="p-2 w-1/2" src="/img/resort/resort4.png"/>
+          <img className="p-2 w-1/2" src="/img/resort/resort3.png" />
+          <img className="p-2 w-1/2" src="/img/resort/resort4.png" />
         </div>
         <div className="flex">
-          <img className="p-2 w-1/2" src="/img/resort/resort5.png"/>
-          <img className="p-2 w-1/2" src="/img/resort/resort6.png"/>
+          <img className="p-2 w-1/2" src="/img/resort/resort5.png" />
+          <img className="p-2 w-1/2" src="/img/resort/resort6.png" />
         </div>
       </div>
       <Footer2 />
