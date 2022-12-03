@@ -3,37 +3,7 @@ import React from "react";
 const Footer2 = () => {
   return (
     <>
-      <div 
-        className="flex flex-col font-sans bg-cover  items-center justify-center"
-        style={{
-          backgroundImage: "url('/img/footer/footer1.png')",
-        }}
-      >
-        <h1 className="text-white font-normal pt-6">
-          Recommend Your Changes For Us
-        </h1>
-        <div>
-        <input
-          type="text"
-          class="
-          my-4
-          p-1
-        text-gray-700
-        bg-white bg-clip-padding
-        rounded
-        transition
-        ease-in-out
-        border
-        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-        />
-        <button class="bg-[#197C38] text-white text-xs font-light p-2 my-4 mx-2 border  rounded">
-            Submit
-          </button>
-
-        </div>
-        
-        
-      </div>
+      
 
       <div
         className=""
@@ -47,7 +17,9 @@ const Footer2 = () => {
           in India and Nepal begins with Zostel. Explore with our social
           hostels, homestays, and luxury stays on your next holiday.
         </p>
-        <h1 className="text-md text-white text-xl underline font-sans p-4">Useful Links</h1>
+        <h1 className="text-md text-white text-xl underline font-sans p-4">
+          Useful Links
+        </h1>
         <div className="flex-col px-4 py-2 font-sans">
           <h1 className="text-white font-light text-sm ">Guest Policy</h1>
           <h1 className="text-white font-light text-sm ">Privacy Policy</h1>
