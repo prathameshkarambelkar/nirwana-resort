@@ -9,36 +9,36 @@ export const Facilities = () => {
           backgroundImage: "url('/img/leaf.png')",
         }}
       >
-        <div className="pt-7 pl-7  ">
-          <h1 className="text-[#C9F15C] text-xs">Resort</h1>
-          <h1 className="text-[#FFFFFF] font-bold underline decoration-[#61CC47] text-sm ">
+        <div className="pt-7 pl-7 lg:flex lg:flex-col  lg:items-center  ">
+          <h1 className="text-[#C9F15C] lg:text-lg text-xs">Resort</h1>
+          <h1 className="text-[#FFFFFF] font-bold lg:text-2xl underline decoration-[#61CC47] text-sm ">
             Facilities
           </h1>
         </div>
-        <div className="m-2 pb-4">
-          <div className="flex justify-around  items-center p-2 m-2 " >
+        <div className="m-2 pb-4 ">
+          <div className="flex justify-around lg:justify-evenly  items-center p-2 m-2 " >
             <img className="w-10" src="/img/icons/football.png" />
-            <h1 className="text-white text-left text-xs ">Playground</h1>
+            <h1 className="text-white lg:text-base text-left text-xs ">Playground</h1>
             <img src="/img/icons/water.png" />
-            <h1 className=" text-white text-xs ">Hot Water</h1>
+            <h1 className=" text-white lg:text-base text-xs ">Hot Water</h1>
           </div>
-          <div className="flex justify-around items-center p-2 m-2 " >
+          <div className="flex justify-around lg:justify-evenly items-center p-2 m-2 " >
             <img src="/img/icons/parking.png" />
-            <h1 className="text-white text-xs ">Spacious Parking</h1>
+            <h1 className="text-white lg:text-base text-xs ">Spacious Parking</h1>
             <img src="/img/icons/restaurant.png" />
-            <h1 className=" text-white text-xs ">Restaurantsr</h1>
+            <h1 className=" text-white lg:text-base text-xs ">Restaurantsr</h1>
           </div>
-          <div className="flex justify-around items-center m-2 p-2 " >
+          <div className="flex justify-around lg:justify-evenly items-center m-2 p-2 " >
             <img src="/img/icons/meetroom.png" />
-            <h1 className="text-white text-xs ">Meeting Room Hall</h1>
+            <h1 className="text-white lg:text-base text-xs ">Meeting Room Hall</h1>
             <img src="/img/icons/indoor.png" />
-            <h1 className=" text-white text-xs ">Indoor Games</h1>
+            <h1 className=" text-white lg:text-base text-xs ">Indoor Games</h1>
           </div>
-          <div className="flex justify-around items-center m-2 p-2" >
+          <div className="flex justify-around lg:justify-evenly items-center m-2 p-2" >
             <img src="/img/icons/wifi.png" />
-            <h1 className="text-white text-xs ">Wifi Connection</h1>
+            <h1 className="text-white lg:text-base text-xs ">Wifi Connection</h1>
             <img src="/img/icons/doctor.png" />
-            <h1 className=" text-white text-xs ">Doctor On Call</h1>
+            <h1 className=" text-white lg:text-base text-xs ">Doctor On Call</h1>
           </div>
         </div>
 

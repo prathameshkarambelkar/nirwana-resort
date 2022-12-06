@@ -70,7 +70,7 @@ export default function Navbar({ user }) {
       <div className="w-3/12 flex items-center">
         
       </div>
-      <div className=" flex  flex-col items-center justify-center  ">
+      <div className=" flex  flex-col items-center justify-center md:invisible ">
         <img className="w-2/3 ml-24 mt-4 " src="/img/finalLogo.png" />
       </div>
       <div className="w-9/12 flex justify-end items-center">

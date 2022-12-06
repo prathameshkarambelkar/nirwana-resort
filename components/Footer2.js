@@ -11,7 +11,10 @@ const Footer2 = () => {
           backgroundImage: "url('/img/footer/footer2.png')",
         }}
       >
+      <div>
         <img src="/img/WhiteLogosm.png" className="p-4" />
+      </div>
+        
         <p className="text-white p-4 text-sm font-thin  font-sans">
           The website ends here, but your journey to the remotest destinations
           in India and Nepal begins with Zostel. Explore with our social
